@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nina Elison | elisonni</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Courier Prime', monospace;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      overflow: hidden;
+      position: relative;
+      background: #000;
+    }
+
+    .bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      filter: brightness(0.7);
+      z-index: -2;
+      transition: all 0.8s ease;
+    }
+
+    .bg.right {
+      left: 50%;
+      background-image: url('IMG_3023.jpg');
+    }
+
+    .bg.left {
+      background-image: url('IMG_3021.JPEG');
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.25);
+      z-index: -1;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 4px;
+      text-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+      letter-spacing: 1px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #ccc;
+      margin-bottom: 28px;
+      letter-spacing: 1px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      width: 240px;
+    }
+
+    .links a {
+      text-decoration: none;
+      color: #f5f5f5;
+      padding: 12px;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background: rgba(255, 255, 255, 0.15);
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+      transition: all 0.3s ease;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      backdrop-filter: blur(5px);
+    }
+
+    .links a:hover {
+      background: rgba(255, 255, 255, 0.35);
+      color: #fff;
+      transform: scale(1.04);
+      box-shadow: 0 0 18px rgba(255, 255, 255, 0.25);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+      letter-spacing: 0.5px;
+    }
+
+    @media (max-width: 768px) {
+      .bg {
+        width: 100%;
+        height: 50%;
+      }
+
+      .bg.right {
+        top: 50%;
+        left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg left"></div>
+  <div class="bg right"></div>
+  <div class="overlay"></div>
+
+  <h1>Nina Elison</h1>
+  <p>@elisonni</p>
+
+  <div class="links">
+    <a href="https://fans.ly/r/elisonni" target="_blank">Fansly</a>
+    <a href="https://www.instagram.com/elison.nina" target="_blank">Instagram</a>
+    <a href="https://t.me/elisonni" target="_blank">Telegram</a>
+    <a href="https://x.com/elisonni" target="_blank">X (Twitter)</a>
+    <a href="https://t.me/tonplace_bot/app?startapp=u170702" target="_blank">Ton.Place</a>
+  </div>
+
+  <footer>© 2025 Nina Elison</footer>
+</body>
+</html>
